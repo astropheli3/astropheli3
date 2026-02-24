@@ -2,11 +2,7 @@
     <img width="63%" src="https://64.media.tumblr.com/66fa3dd1154b183f6d40e3f9d207d0e9/9fc944b4c9670952-78/s400x600/173cb9d3cb15e686dd7a8c486ad9b3e3c556f4d9.gifv">
 </p>
 
-<br>
 
-> *If you were anything*
-
-<br>
 
 <p align="center" width="100%">
    haiii i'm jeremiah, aka maristelle!!!
@@ -21,11 +17,7 @@
     C+H+K okay!!! Cudcomf :3c. <br>
 </p>
 
-<br>
 
-> *You'd be stars*
-
-<br>
 
 <p align="center">
   <a href="https://github.com/kittinan/spotify-github-profile">

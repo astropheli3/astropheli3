@@ -185,7 +185,7 @@ div.grid > div.group.items-center.flex > span.inline-flex > button.relative > di
     --size: 4vh; height: var(--size); width: var(--size); bottom: -2vh; right: -1.6vh; visibility: hidden; transform: rotate(-1deg);
 }
 div.grid > div.group.items-center.flex > span.inline-flex > button.relative > div.justify-center.items-center.flex ~ span.ring-2:before {
-    content: "🚀"; visibility: visible; font-size: 2.1vh; color: rgba(0, 0, 0, 0); background-color: inherit; background-clip: text; 
+    content: "✦"; visibility: visible; font-size: 2.1vh; color: rgba(0, 0, 0, 0); background-color: inherit; background-clip: text; 
     filter: drop-shadow(1px 1px 1px var(--color-surface)) drop-shadow(1px -1px 1px var(--color-surface)) drop-shadow(-1px 1px 1px var(--color-surface)) drop-shadow(-1px -1px 1px var(--color-surface));
 }
 

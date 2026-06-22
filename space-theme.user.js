@@ -10,7 +10,7 @@
 
 GM_addStyle(`
 /* Global Variables & Colors */
-html[data-theme=dark], html:not(.light) {
+html {
     background-image: linear-gradient(to bottom, #041b1a, #0d392d) !important;
     --color-ps-950: linear-gradient(to bottom, #041b1a, #0d392d) !important;
     --color-ps-900: #0d392d !important;

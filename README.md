@@ -8,7 +8,7 @@
    haiii i'm jeremiah, aka maristelle!!!
 </p>
 <p align="center" width="100%">
-    co-host 2 the pb.tv sys!!!
+    co-host 2 the cr.bcst sys!!!
 </p>
 <p align="center" width="100%">
     self-taught in coding & stuff but i do rip code here n there

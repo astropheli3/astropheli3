@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Space Theme - Dark Teal (Pluralspace)
 // @namespace    github.com/openstyles/stylus
-// @version      1.0.2
+// @version      1.0.3
 // @description  Makes UserStyle compatible with mobile Safari.
 // @match        https://pluralspace.app/*
 // @run-at       document-end
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6, .card-title, .navbar-brand {
 }
 
 /* Moving Stars Background */
-.dark .pixel-bg {
+.pixel-bg {
     background-color: #308d6c !important;
     background-image: url(https://i.postimg.cc/mrzhkDgT/Four-Souls-Background-Star-Layer05.png),
     url(https://i.postimg.cc/6QrJMJjt/Four-Souls-Background-Star-Layer04.png),
@@ -85,26 +85,6 @@ h1, h2, h3, h4, h5, h6, .card-title, .navbar-brand {
     to { background-position: -7200px 4800px, -6000px 4000px, -4800px 3200px, -3600px 2400px, -2400px 1600px, -1200px 800px; }
 }
 
-/* Profile Pictures Masks */
-a.block > div.justify-center.flex > div.relative > div.flex.items-center.justify-center img,
-a.relative > div.relative > div.flex.items-center.justify-center img,
-article.relative.flex:has(a.flex) > div.relative > div.flex.items-center.justify-center img,
-div > div.justify-between > div.relative > div.flex img,
-div > div.flex.items-center img,
-div.overflow-hidden > header.flex ~ div > ul > li > a.flex.items-center img,
-section.flex > div.overflow-y-auto > div.flex > div.shrink-0 img,
-div.grid.grid-cols-2 > div.group.flex > span.outline-none > button[type="button"].relative > div.flex.items-center.justify-center img,
-section.border.border-border > header ~ div.grid > div.group.flex > div.relative > a > div.flex img {
-    -webkit-mask-size: 100% !important;
-    -webkit-mask-repeat: no-repeat !important;
-    -webkit-mask-position: center !important;
-    border-radius: 0px !important;
-    box-shadow: none !important;
-    background-color: transparent !important;
-    -webkit-mask-image: var(--url) !important;
-    --url: url(https://i.postimg.cc/dttXGTPW/giphy-ezgif-com-crop.gif) !important;
-}
-
 /* Layout and Transparencies */
 aside.fixed, .bg-bg-2 {
     background-color: rgba(113, 246, 255, .05) !important;
@@ -120,9 +100,9 @@ header.sticky.top-0.flex:has(div.flex.items-center), .bg-surface {
 
 /* Dashboard Headers */
 div.flex.flex-col > div:has(h1.font-display) > p { visibility: hidden !important; }
-div.flex.flex-col > div:has(h1.font-display) > p:before { content: "welcome to the" !important; visibility: visible !important; position: absolute !important; font-family: monospace !important; font-weight: bold !important; font-size: 2.5vh !important; }
+div.flex.flex-col > div:has(h1.font-display) > p:before { content: "You're on air," !important; visibility: visible !important; position: absolute !important; font-family: monospace !important; font-weight: bold !important; font-size: 2.5vh !important; }
 h1.font-display { visibility: hidden !important; }
-h1.font-display:before { content: "COMMANDO ROOM" !important; visibility: visible !important; position: absolute !important; font-weight: lighter !important; font-style: normal !important; }
+h1.font-display:before { content: "BROADCAST" !important; visibility: visible !important; position: absolute !important; font-weight: lighter !important; font-style: normal !important; }
 h1.font-display span { display: none !important; }
 
 /* Custom Icons */
